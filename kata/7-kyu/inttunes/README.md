@@ -1,4 +1,4 @@
-# [intTunes](https://www.codewars.com/kata/inttunes "https://www.codewars.com/kata/5b8dc84b8ce20454bd00002e")
+# [IntTunes](https://www.codewars.com/kata/inttunes "https://www.codewars.com/kata/5b8dc84b8ce20454bd00002e")
 
 <p> <i>This section does not need to be read and can be skipped, but it does provide some clarity into the inspiration behind the problem.</i></p>
 

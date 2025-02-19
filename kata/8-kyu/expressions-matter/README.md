@@ -1,4 +1,4 @@
-# [Expressions Matter ](https://www.codewars.com/kata/expressions-matter "https://www.codewars.com/kata/5ae62fcf252e66d44d00008e")
+# [Expressions Matter](https://www.codewars.com/kata/expressions-matter "https://www.codewars.com/kata/5ae62fcf252e66d44d00008e")
 
 **_Given_** *three integers* `a` ,`b` ,`c`, **_return_** *the **_largest number_** obtained after inserting the following operators and brackets*: `+`, `*`, `()`. 
 ___

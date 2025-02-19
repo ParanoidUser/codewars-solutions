@@ -1,4 +1,4 @@
-# [Find  your  caterer](https://www.codewars.com/kata/find-your-caterer "https://www.codewars.com/kata/6402205dca1e64004b22b8de")
+# [Find your caterer](https://www.codewars.com/kata/find-your-caterer "https://www.codewars.com/kata/6402205dca1e64004b22b8de")
 
 You need to hire a catering company out of three for lunch in a birthday party. The first caterer offers only
 a `basic buffet` which costs $15 per person. The second one has an `economy buffet` at $20 per person and the third one

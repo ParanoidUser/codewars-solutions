@@ -18,19 +18,17 @@ jobs:
     timeout-minutes: 1
     steps:
       - name: Fetch metadata
-        env:
-          KATA: ${{ inputs.kata }}
         id: kata
         run: |
-          JSON=$(curl -s "https://www.codewars.com/api/v1/code-challenges/$KATA")
-          echo "json=$JSON" >> $GITHUB_OUTPUT
+          JSON=$(curl -s "https://www.codewars.com/api/v1/code-challenges/${{ inputs.kata }}")
+          echo "metadata=$JSON" >> $GITHUB_OUTPUT
 
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Create README
         env:
-          JSON: ${{ steps.kata.outputs.json }}
+          JSON: ${{ steps.kata.outputs.metadata }}
         run: |
           RANK=$(echo $JSON | jq -r '.rank.name // "beta"' | sed 's/ /-/g')
           SLUG=$(echo $JSON | jq -r '.slug')
@@ -45,10 +43,28 @@ jobs:
             echo "$DESC"
           } > "$BASEDIR/README.md"
 
+      - name: Update index
+        env:
+          JSON: ${{ steps.kata.outputs.metadata }}
+        run: |
+          base_dir="./kata/$(echo "$JSON" | jq -r '.rank.name // "beta"' | sed 's/ /-/g')"
+          section=""
+          for d in "$base_dir"/*/; do
+            [[ -f "$d/README.md" ]] || continue
+            dir=$(basename "$d")
+            title=$(sed -n '1s/^# \[\(.\)\(.*\)\](.*$/\u\1\2/p' "$d/README.md")
+            first=$([[ $dir =~ ^[A-Za-z] ]] && echo "${dir:0:1}" | tr '[:lower:]' '[:upper:]' || echo "#")
+            if [[ $section != $first ]]; then
+              section="$first"
+              [[ $section == "#" ]] && echo "# \\#" || echo "# $section"
+            fi
+            echo "- [$title]($dir)"
+            done > "$base_dir/index.md"
+
       - name: Commit changes
         id: git
         env:
-          JSON: ${{ steps.kata.outputs.json }}
+          JSON: ${{ steps.kata.outputs.metadata }}
         run: |
           ID=$(echo $JSON | jq -r '.id')
           BRANCH="kata/$ID"
@@ -62,7 +78,7 @@ jobs:
 
       - name: Create pull request
         env:
-          JSON: ${{ steps.kata.outputs.json }}
+          JSON: ${{ steps.kata.outputs.metadata }}
           BRANCH: ${{ steps.git.outputs.branch }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

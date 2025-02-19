@@ -1,4 +1,4 @@
-# [|||clickbait||| Matrix Shift |||clickbait|||](https://www.codewars.com/kata/clickbait-matrix-shift-clickbait "https://www.codewars.com/kata/5afd3c451839f13b95000132")
+# [Clickbait||| Matrix Shift |||clickbait|||](https://www.codewars.com/kata/clickbait-matrix-shift-clickbait "https://www.codewars.com/kata/5afd3c451839f13b95000132")
 
 Shift The Matrix... n times!
 

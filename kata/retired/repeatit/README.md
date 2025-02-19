@@ -1,4 +1,4 @@
-# [repeatIt](https://www.codewars.com/kata/repeatit "https://www.codewars.com/kata/557af9418895e44de7000053")
+# [RepeatIt](https://www.codewars.com/kata/repeatit "https://www.codewars.com/kata/557af9418895e44de7000053")
 
 Create a function that takes a string and an integer (`n`).
 

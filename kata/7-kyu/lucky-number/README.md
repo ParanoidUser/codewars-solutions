@@ -1,4 +1,4 @@
-# [lucky number](https://www.codewars.com/kata/lucky-number "https://www.codewars.com/kata/55afed09237df73343000042")
+# [Lucky number](https://www.codewars.com/kata/lucky-number "https://www.codewars.com/kata/55afed09237df73343000042")
 
 Write a function to find if a number is lucky or not. If the sum of all digits is 0 or multiple of 9 then the number is lucky.
 

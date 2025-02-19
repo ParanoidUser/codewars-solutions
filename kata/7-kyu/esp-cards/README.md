@@ -1,4 +1,4 @@
-# [E.S.P.  Cards](https://www.codewars.com/kata/esp-cards "https://www.codewars.com/kata/596ef174e4cab6813600004d")
+# [E.S.P. Cards](https://www.codewars.com/kata/esp-cards "https://www.codewars.com/kata/596ef174e4cab6813600004d")
 
 **In this Kata we are conducting important E.S.P. research**
 

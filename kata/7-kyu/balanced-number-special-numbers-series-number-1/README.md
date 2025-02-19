@@ -1,4 +1,4 @@
-# [Balanced Number (Special Numbers Series #1) ](https://www.codewars.com/kata/balanced-number-special-numbers-series-number-1 "https://www.codewars.com/kata/5a4e3782880385ba68000018")
+# [Balanced Number (Special Numbers Series #1)](https://www.codewars.com/kata/balanced-number-special-numbers-series-number-1 "https://www.codewars.com/kata/5a4e3782880385ba68000018")
 
 
 **_Balanced number_** is the number that * **_The sum of_** all digits to the **_left of the middle_** digit(s) and the sum of all digits to the **_right of the middle_** digit(s) are **_equal_***.

@@ -1,4 +1,4 @@
-# [Form The Largest ](https://www.codewars.com/kata/form-the-largest "https://www.codewars.com/kata/5a4ea304b3bfa89a9900008e")
+# [Form The Largest](https://www.codewars.com/kata/form-the-largest "https://www.codewars.com/kata/5a4ea304b3bfa89a9900008e")
 
 **_Given_**   *a number* , **_Return_**  **_The Maximum number _**  *could be formed from the digits of the number given* . 
 

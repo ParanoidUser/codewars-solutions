@@ -1,4 +1,4 @@
-# [Minimize  Sum Of Array (Array Series #1)](https://www.codewars.com/kata/minimize-sum-of-array-array-series-number-1 "https://www.codewars.com/kata/5a523566b3bfa84c2e00010b")
+# [Minimize Sum Of Array (Array Series #1)](https://www.codewars.com/kata/minimize-sum-of-array-array-series-number-1 "https://www.codewars.com/kata/5a523566b3bfa84c2e00010b")
 
 **_Given_** an **_array of integers_** , **_Find the minimum sum_** which is obtained *from summing each Two integers product* .
 

@@ -1,4 +1,4 @@
-# [bread sandwiches](https://www.codewars.com/kata/bread-sandwiches "https://www.codewars.com/kata/622a6a822494ab004b2c68d2")
+# [Bread sandwiches](https://www.codewars.com/kata/bread-sandwiches "https://www.codewars.com/kata/622a6a822494ab004b2c68d2")
 
 If you're not familiar with the fantastic culinary delights of the British Isles you may not know about the bread sandwich.
 

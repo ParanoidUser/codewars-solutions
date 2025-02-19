@@ -1,4 +1,4 @@
-# [OOP: Object Oriented Piracy ](https://www.codewars.com/kata/oop-object-oriented-piracy "https://www.codewars.com/kata/54fe05c4762e2e3047000add")
+# [OOP: Object Oriented Piracy](https://www.codewars.com/kata/oop-object-oriented-piracy "https://www.codewars.com/kata/54fe05c4762e2e3047000add")
 
 Ahoy matey!
 

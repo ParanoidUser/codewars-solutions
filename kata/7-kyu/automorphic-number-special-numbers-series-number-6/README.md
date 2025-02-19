@@ -1,4 +1,4 @@
-# [Automorphic Number (Special Numbers Series  #6)](https://www.codewars.com/kata/automorphic-number-special-numbers-series-number-6 "https://www.codewars.com/kata/5a58d889880385c2f40000aa")
+# [Automorphic Number (Special Numbers Series #6)](https://www.codewars.com/kata/automorphic-number-special-numbers-series-number-6 "https://www.codewars.com/kata/5a58d889880385c2f40000aa")
 
 A **number** is called **_Automorphic number_** if and only if *its square ends in the same digits as the number itself*.
 

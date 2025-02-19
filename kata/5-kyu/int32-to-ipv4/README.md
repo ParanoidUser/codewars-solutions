@@ -1,4 +1,4 @@
-# [int32 to IPv4](https://www.codewars.com/kata/int32-to-ipv4 "https://www.codewars.com/kata/52e88b39ffb6ac53a400022e")
+# [Int32 to IPv4](https://www.codewars.com/kata/int32-to-ipv4 "https://www.codewars.com/kata/52e88b39ffb6ac53a400022e")
 
 Take the following IPv4 address: `128.32.10.1`
 

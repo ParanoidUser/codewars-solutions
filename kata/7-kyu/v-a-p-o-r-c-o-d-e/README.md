@@ -1,4 +1,4 @@
-# [V  A  P  O  R  C  O  D  E](https://www.codewars.com/kata/v-a-p-o-r-c-o-d-e "https://www.codewars.com/kata/5966eeb31b229e44eb00007a")
+# [V A P O R C O D E](https://www.codewars.com/kata/v-a-p-o-r-c-o-d-e "https://www.codewars.com/kata/5966eeb31b229e44eb00007a")
 
 ASC Week 1 Challenge 4 (Medium #1)
 

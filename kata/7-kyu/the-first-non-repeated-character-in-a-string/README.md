@@ -1,4 +1,4 @@
-# [The First Non Repeated Character In A String ](https://www.codewars.com/kata/the-first-non-repeated-character-in-a-string "https://www.codewars.com/kata/570f6436b29c708a32000826")
+# [The First Non Repeated Character In A String](https://www.codewars.com/kata/the-first-non-repeated-character-in-a-string "https://www.codewars.com/kata/570f6436b29c708a32000826")
 
 You need to write a function, that returns the first non-repeated character in the given string.
 
