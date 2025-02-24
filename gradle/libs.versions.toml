@@ -4,7 +4,7 @@ lombok = "1.18.36"
 mockito = "5.2.0"
 junit = "5.11.4"
 junit-launcher = "1.12.0"
-awaitility = "4.2.2"
+awaitility = "4.3.0"
 sonarqube = "6.0.1.5171"
 
 [libraries]
